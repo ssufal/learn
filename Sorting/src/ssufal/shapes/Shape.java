@@ -1,4 +1,11 @@
+package ssufal.shapes;
+
 abstract class Shape {
-    int width;
+    protected int length;
+
+    public Shape(int length) {
+        this.length = length;
+    }
+
     abstract void area();
 }

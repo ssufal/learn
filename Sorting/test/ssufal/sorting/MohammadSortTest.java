@@ -1,4 +1,4 @@
-package com.example.sorting;
+package ssufal.sorting;
 
 import static org.junit.jupiter.api.Assertions.*;
 

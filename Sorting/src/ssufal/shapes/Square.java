@@ -1,9 +1,14 @@
+package ssufal.shapes;
+
 public class Square extends Shape{
+
     public Square(int x){
-        width = x;
+        super(x);
     }
+
     public void area (){
-        System.out.println(width*width);
+        int width = length;
+        System.out.println(width * width);
     }
 
 }

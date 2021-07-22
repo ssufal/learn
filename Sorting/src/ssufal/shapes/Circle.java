@@ -1,9 +1,13 @@
+package ssufal.shapes;
+
 public class Circle extends Shape{
-    public Circle(int y){
-       width = y;
+
+    public Circle(int radius){
+        super(radius);
     }
+
     public void area () {
-    System.out.println(Math.PI * width * width);
+        System.out.println(Math.PI * length * length);
     }
 
 }
