@@ -1,3 +1,5 @@
+package ssufal.shapes;
+
 import java.util.Scanner;
 
 public class Program {
